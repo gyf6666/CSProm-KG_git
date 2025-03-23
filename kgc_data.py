@@ -178,6 +178,11 @@ class KGCDataModule(pl.LightningDataModule):
                                        num_workers=self.configs.num_workers)
         return [valid_tail_loader, valid_head_loader]
 
+
+    def merge():
+        pass
+
+
     def test_dataloader(self):
         test_tail_loader = DataLoader(self.test_tail,
                                       batch_size=self.configs.val_batch_size,
@@ -192,3 +197,5 @@ class KGCDataModule(pl.LightningDataModule):
                                       pin_memory=True,
                                       num_workers=self.configs.num_workers)
         return [test_tail_loader, test_head_loader]
+    
+
