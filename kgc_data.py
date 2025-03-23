@@ -199,6 +199,5 @@ class KGCDataModule(pl.LightningDataModule):
     
     def merge2():
         pass
-        return [test_tail_loader, test_head_loader]
     
 
