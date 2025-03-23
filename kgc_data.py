@@ -196,6 +196,9 @@ class KGCDataModule(pl.LightningDataModule):
                                       collate_fn=self.test_head.collate_fn,
                                       pin_memory=True,
                                       num_workers=self.configs.num_workers)
+    
+    def merge2():
+        pass
         return [test_tail_loader, test_head_loader]
     
 
