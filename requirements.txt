@@ -1,4 +1,4 @@
-numpy==1.21.5
 torch==1.11.0
-transformers==4.16.2
-dataclasses==0.6
+dataclass==0.7
+
+gyf == 777
